@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.navbar {
+  background-color: rgb(10, 10, 10);
+  padding: 20px;
+  margin: 0px;
+  font-size: 20px;
+  color: rgb(10, 10, 10);
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.li {
+  padding-left: 40px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* .navbar a {
+    /* float: left; */
+/* display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+  }  */
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+/* .container content { */
+  /* border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: relative;
+  flex: 50%;
+  border: 3px solid #73AD21;
+  flex-wrap: wrap;
+  align-content: center; */
+  
+/* } */
+
+/* Create two columns that float next to eachother */
+/* .container column { */
+/* box-sizing: border-box; */
+/* float: left; */
+/* width: 50%; */
+/* flex: 50%; */
+/* margin-top: 6px; */
+/* padding: 30px; */
+/* position: relative; */
+/* column-gap: 90px;  */
+/* }  */
+
+/* .container column img{
+    width: 90%;
+    height: 90%; */
+
+/* } */
+
+/* .container2 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    position: relative;
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+    display: flex;
+} */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) { */
+
+/* .column,
+    input[type=submit] {
+        width: 100%; */
+/* margin-top: 0; */
+/* } */
+/* }  */
+
+.select column section1 {
+  /* background-image: url(../images/WhatsApp\ Image\ 2022-07-05\ at\ 7.15.09\ PM\ \(1\).jpeg); */
+
+  /* Full height */
+  /* height: 100%;  */
+
+  /* Center and scale the image nicely */
+  background-image: url('../images/All.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.select dashboard  {
+  position: absolute;
+  /* Position the background text */
+  bottom: 0;
+  
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(171, 172, 171);
+  /* Fallback color */
+  background: rgba(19, 18, 18, 0.842);
+  /* Black background with 0.5 opacity */
+  color: #0a0a0a;
+  /* Grey text */
+  width: 80%;
+  /* Full width */
+  padding: 10px;
+  /* Some padding */
+  text-indent: center;
+  /* text-overflow: initial; */
+  font-size:xx-large;
+  float: center;
+  text-align: center;
+  height: 80%;
+  column-gap: 50px;
+  float: auto;
+
+}
+
+.content button {
+  background-color: #d3841d;
+  color: white;
+  padding: 14px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10%;
+  height: 100%;
+}
+
+.content button:hover {
+  opacity: 0.9;
+}
+
+.content img {
+  width: 400px;
+  position: relative;
+}
+
+.content form {
+  width: 300px;
+  position: relative;
+  align-content: center;
+  float: auto;
+  
+}

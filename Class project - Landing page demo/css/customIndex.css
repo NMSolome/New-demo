@@ -1,0 +1,183 @@
+/* .body {
+  height: 100%;
+} */
+
+.navbar {
+  background-color: rgb(10, 10, 10);
+  padding: 10px;
+  margin: 0px;
+  font-size: 25px;
+  color: rgb(10, 10, 10);
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.navbar li {
+  padding-left: 40px;
+
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: rgb(235, 112, 11);
+}
+
+
+/* .image { */
+  /* background-image: url(../images/WhatsApp\ Image\ 2022-07-05\ at\ 7.15.09\ PM\ \(1\).jpeg); */
+
+  /* Full height */
+  /* height: 100%;  */
+
+  /* Center and scale the image nicely */
+  /* background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Style inputs */
+/* input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; */
+  /* font-size: 30px; */
+/* } */
+
+/* input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+} */
+
+/* input[type=submit]:hover {
+  background-color: #45a049;
+} */
+
+/* Style the container/contact section */
+/* .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px; */
+
+
+/* Create two columns that float next to eachother */
+/* .column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+
+  .column,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} */
+
+.container {
+  background-color: rgb(207, 205, 205);
+  padding: 3px;
+  margin: 0px;
+  font-size: 30px;
+  color: rgb(194, 190, 190);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-size: auto;
+
+  /* margin: px width:auto%; */
+  position: absolute;
+  background-size: cover;
+  height: 100%;
+  /* min-width: 1024px; */
+
+}
+
+/* content in landing page */
+.content {
+  position: absolute;
+  /* Position the background text */
+  bottom: 10;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(201, 200, 197, 0.719);
+  /* Fallback color */
+  background: rgba(238, 238, 235, 0.726);
+  /* Black background with 0.5 opacity */
+  color: #0a0a0a;
+  /* Grey text */
+  width: 100%;
+  /* Full width */
+  padding: 10px;
+  /* Some padding */
+  text-indent: center;
+  /* text-overflow: initial; */
+  font-size: xx-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: right;
+  text-align: center;
+  border-radius: 30%;
+  border: rgb(207, 205, 205);
+}
+
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+} */
+
+/* Create two equal columns that sits next to each other */
+/* .column {
+  flex: 50%;
+  padding: 0 4px;
+} */
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  
+}
+
+.card {
+  margin-top: 20px;
+  position: relative;
+  background-color: aqua;
+
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
